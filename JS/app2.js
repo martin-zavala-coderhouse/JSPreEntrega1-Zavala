@@ -9,7 +9,7 @@ const edades = [0];              //variable cost (edades)  aca almacenare las ed
 let contador = 0;               //variable let (contador) aca voy sumando por cada persona 8 personas en total
 
 while (contador < 8) {          //aca esta el -->bucle
-  const input = prompt(`Por favor persona numero ${contador + 1} ingrese su edad en este prompt`);
+  const input = prompt(`Por favor persona numero ${contador + 1} ingrese su años de vida en este prompt`);
   const edad = parseInt(input);          //aca esta el input de arriba que sera iguala a<<<-edad->>>
 
 
